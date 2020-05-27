@@ -3,8 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# next.js build output
-.next
+# nuxt.js build output
+.nuxt
+dist
 # dotenv environment variables file (build for Zeit Now)
 .env
 .env.build
