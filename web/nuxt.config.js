@@ -74,6 +74,7 @@ export default {
       }
     }
   },
+  target: "static",
   generate: {
     routes: async function() {
       const paths = await client.fetch(`{
