@@ -1,7 +1,8 @@
 https://github.com/sanity-io/example-ecommerce-snipcart-vue
 
-https://manage.sanity.io/projects/607gddgv
-https://kaik-ecommerce.sanity.studio/
+Gestor del back: https://manage.sanity.io/projects/607gddgv
+Back: https://kaik-ecommerce.sanity.studio/
+Front: https://jaiaccesorios-nuxt-sanity.netlify.app/
 
 TODO: 
 - BKP:
