@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-import { configure, preferences } from "mercadopago"
+const mercadopago = require("mercadopago")
 
 const headers = {
   "Access-Control-Allow-Origin": "*",
@@ -61,14 +61,14 @@ export async function handler(event, context) {
   }
 
   try {
-    configure({
+    mercadopago.configure({
       // eslint-disable-next-line prettier/prettier
       access_token: "TEST-7614602994394127-052503-ed776271d406bf29ae5def660cfd09d2-183679510"
     })
 
     const {
       body: { init_point }
-    } = await preferences.create(preference)
+    } = await mercadopago.preferences.create(preference)
     console.log(init_point)
   } catch (err) {
     console.log(err)
